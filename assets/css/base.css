@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap');
+
+:root {
+    --text-black: #232323;
+    --text-gray: #777777;
+    --color-background-primary: #efefef;
+    --color-background-second: #31363b;
+    --color-background-third: #dce8eb;
+    --font: 'DM Sans', sans-serif;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font);
+    font-size: 17.6px;
+    color: var(--text-gray);
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+
+.big-title {
+    font-size: 60.8px;
+    color: var(--text-black);
+    font-weight: 700;
+    margin-bottom: 16px;
+    line-height: 1.1;
+
+}
+
+.title {
+    font-size: 49.6px;
+    color: var(--text-black);
+    font-weight: 700;
+    margin-bottom: 32px;
+    line-height: 1.1;
+
+}
+
+.small-title {
+    font-size: 25.6px;
+    color: var(--text-black);
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 16px;
+
+}
+
+.subtitle {
+    font-size: 17.6px;
+    color: var(--text-gray);
+    font-weight: 700;
+    margin-bottom: 16px;
+    line-height: 1.5;
+
+
+}
+
+.btn {
+    margin: 9.6px;
+    padding: 19px 41.6px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+.btn-one {
+    background-color: #f7d9c4;
+    color: var(--text-black);
+    transition: all 0.4s;
+}
+
+.btn-one:hover {
+    background-color: white;
+}
+
+.btn-two {
+    background-color: var(--text-black);
+    color: white;
+}
+
+.btn-three {
+    color: white;
+    background-color: transparent;
+    border: 2px solid #464646;
+    transition: all 0.4s;
+
+}
+
+.btn-three:hover {
+    color: var(--text-black);
+    background-color: #f7d9c4;
+    border: 2px solid #f7d9c4;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0px 15px;
+    }
+}
